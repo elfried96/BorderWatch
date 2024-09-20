@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['arms', 'person']
+
+roboflow:
+  workspace: border-wacth
+  project: border_wacthv2
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/border-wacth/border_wacthv2/dataset/3
